@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+  <offices>
+    <office code="OFF-01">Главный офис Яндекс</office>
+    <office code="OFF-02">Филиал Москва</office>
+  </offices>
+  <person id="P-001" office="OFF-01">
+    <name>
+      <first>Иван</first>
+      <surname>Иванов</surname>
+    </name>
+    <address>
+      <index>101000</index>
+      <city>Москва</city>
+      <street>Тверская улица, д. 1</street>
+    </address>
+    <phones>
+      <phone type="work">123-45-67</phone>
+      <phone type="home">987-65-43</phone>
+    </phones>
+  </person>
+  <person id="P-002" office="OFF-02">
+    <name>
+      <first>Иван</first>
+      <surname>Юкин</surname>
+    </name>
+    <address>
+      <city>Мытищи</city>
+      <street>ул.Силикатная, д. 49</street>
+      <index>141013</index>
+    </address>
+    <phones>
+      <phone>702-18-03</phone>
+    </phones>
+  </person>
+</notebook>
